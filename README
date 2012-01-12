@@ -1,0 +1,4 @@
+- "HelloWorldTest.java" is a JUnit test that extends ConcordionTestCase;
+- "HelloWorld.html" is the Concordion specification and is processed by the "HelloWorldTest.java" test;
+- The name of the test and the HTML share the same base name;
+- In order to tell ConcordionRunner where to leave the html files after executing the tests, we set the systemProperty "concordion.output.dir".
